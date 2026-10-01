@@ -208,3 +208,13 @@ Unregister-ScheduledTask -TaskName "StarPivotCheckin" # 删除
 
 仅用于个人自动化，不得用于违反目标站点服务条款、刷量、薅羊毛、商业牟利等不当用途。
 运行即视为同意上述条款，由此产生的账号风险与法律责任由使用者自负。
+
+## 许可证
+
+本仓库为**专有软件（Proprietary）**，保留所有权利。
+
+代码公开可见**仅用于查看与参考**——公开可见不等于授予许可。未经版权人书面同意，
+不得使用、复制、修改、分发、再许可或用于任何商业用途。完整条款见 [LICENSE](LICENSE)。
+
+`package.json` 中的 `"private": true` 与 `"license": "UNLICENSED"` 与本声明一致，
+本项目不发布到 npm，也不对外提供使用授权。
