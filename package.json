@@ -1,0 +1,21 @@
+{
+  "name": "starpivot-auto-signin",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal daily check-in automation for starpivot-ri.top/profile, driving an isolated Chrome profile via puppeteer-core.",
+  "type": "module",
+  "main": "checkin.mjs",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node checkin.mjs",
+    "checkin": "node checkin.mjs",
+    "setup": "node checkin.mjs --setup",
+    "cleanup": "node checkin.mjs --cleanup"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "puppeteer-core": "^23.11.1"
+  }
+}
